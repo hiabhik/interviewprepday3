@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4>Q1.What is the use of setTimeout</h4>
+    <pre>
+        setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires.
+    </pre>
+    <h4>Q2.What is an event loop and call stack</h4>
+    <pre>
+        The event loop executes tasks from the event queue only when the call stack is empty i.e. there is no ongoing task. The event loop allows us to use callbacks and promises. The event loop executes the tasks starting from the oldest first.
+    </pre>
+
+    <h4>Q3.What are arrow functions?</h4>
+
+    <pre>
+    Arrow functions were introduced in ES6.
+
+    Arrow functions allow us to write shorter function syntax:
+
+     let myFunction = (a, b) => a * b;
+   </pre
+    >
+
+    <h4>Q4.What is a Temporal Dead Zone?</h4>
+    <pre>
+    A temporal dead zone (TDZ) is the area of a block where a variable is inaccessible until the moment the computer completely initializes it with a value.
+  </pre
+    >
+
+    <h4>Q5.What is hoisting?</h4>
+    <pre>
+    Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+    In other words; a variable can be used before it has been declared.
+ </pre
+    >
+
+    <h4>Q6.What is the DOM?</h4>
+    <pre>
+    The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page. 
+   </pre>
+
+  <h4>Q7.Difference between undefined vs not defined vs NaN</h4>
+ <pre>
+    Undefined in JavaScript 
+       When a variable is declared without a value, it is automatically given the value of "undefined". This can happen if you forget to assign a value to a variable, or if you intentionally do not assign a value (For example, if you are waiting for user input).
+
+       Not defined in JavaScript
+       The value of "not defined" is similar to "undefined", in that it indicates that a variable does not exist. However, there is a subtle difference between the two.
+       
+       "not defined" is usually caused by a typo, or by trying to access a variable that is out of scope. "undefined" is usually caused by forgetting to assign a value to a variable.
+
+       NaN values are generated when arithmetic operations result in undefined or unrepresentable values. Such values do not necessarily represent overflow conditions. A NaN also results from attempted coercion to numeric values of non-numeric values for which no primitive numeric value is available.
+
+</pre>
+  </body>
+</html>
